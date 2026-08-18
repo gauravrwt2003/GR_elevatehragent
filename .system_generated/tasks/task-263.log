@@ -1,0 +1,72 @@
+diffBlocks: generated 19 ops
+  Op 0: Tag=r, I1=0, I2=2, J1=0, J2=2
+  Op 1: Tag=e, I1=2, I2=3, J1=2, J2=3
+  Op 2: Tag=r, I1=3, I2=11, J1=3, J2=13
+  Op 3: Tag=e, I1=11, I2=12, J1=13, J2=14
+  Op 4: Tag=r, I1=12, I2=14, J1=14, J2=17
+  Op 5: Tag=e, I1=14, I2=15, J1=17, J2=18
+  Op 6: Tag=r, I1=15, I2=67, J1=18, J2=20
+  Op 7: Tag=e, I1=67, I2=69, J1=20, J2=22
+  Op 8: Tag=r, I1=69, I2=74, J1=22, J2=28
+  Op 9: Tag=e, I1=74, I2=76, J1=28, J2=30
+  Op 10: Tag=r, I1=76, I2=78, J1=30, J2=33
+  Op 11: Tag=e, I1=78, I2=79, J1=33, J2=34
+  Op 12: Tag=r, I1=79, I2=81, J1=34, J2=37
+  Op 13: Tag=e, I1=81, I2=82, J1=37, J2=38
+  Op 14: Tag=r, I1=82, I2=89, J1=38, J2=50
+  Op 15: Tag=e, I1=89, I2=91, J1=50, J2=52
+  Op 16: Tag=r, I1=91, I2=95, J1=52, J2=56
+  Op 17: Tag=e, I1=95, I2=96, J1=56, J2=57
+  Op 18: Tag=r, I1=96, I2=103, J1=57, J2=59
+diffBlocks: generated 19 ops
+  Op 0: Tag=r, I1=0, I2=2, J1=0, J2=2
+  Op 1: Tag=e, I1=2, I2=3, J1=2, J2=3
+  Op 2: Tag=r, I1=3, I2=11, J1=3, J2=13
+  Op 3: Tag=e, I1=11, I2=12, J1=13, J2=14
+  Op 4: Tag=r, I1=12, I2=14, J1=14, J2=17
+  Op 5: Tag=e, I1=14, I2=15, J1=17, J2=18
+  Op 6: Tag=r, I1=15, I2=67, J1=18, J2=20
+  Op 7: Tag=e, I1=67, I2=69, J1=20, J2=22
+  Op 8: Tag=r, I1=69, I2=74, J1=22, J2=28
+  Op 9: Tag=e, I1=74, I2=76, J1=28, J2=30
+  Op 10: Tag=r, I1=76, I2=78, J1=30, J2=33
+  Op 11: Tag=e, I1=78, I2=79, J1=33, J2=34
+  Op 12: Tag=r, I1=79, I2=81, J1=34, J2=37
+  Op 13: Tag=e, I1=81, I2=82, J1=37, J2=38
+  Op 14: Tag=r, I1=82, I2=89, J1=38, J2=50
+  Op 15: Tag=e, I1=89, I2=91, J1=50, J2=52
+  Op 16: Tag=r, I1=91, I2=95, J1=52, J2=56
+  Op 17: Tag=e, I1=95, I2=96, J1=56, J2=57
+  Op 18: Tag=r, I1=96, I2=100, J1=57, J2=59
+diffBlocks: generated 19 ops
+  Op 0: Tag=r, I1=0, I2=2, J1=0, J2=2
+  Op 1: Tag=e, I1=2, I2=3, J1=2, J2=3
+  Op 2: Tag=r, I1=3, I2=11, J1=3, J2=13
+  Op 3: Tag=e, I1=11, I2=12, J1=13, J2=14
+  Op 4: Tag=r, I1=12, I2=14, J1=14, J2=17
+  Op 5: Tag=e, I1=14, I2=15, J1=17, J2=18
+  Op 6: Tag=r, I1=15, I2=67, J1=18, J2=20
+  Op 7: Tag=e, I1=67, I2=69, J1=20, J2=22
+  Op 8: Tag=r, I1=69, I2=74, J1=22, J2=28
+  Op 9: Tag=e, I1=74, I2=76, J1=28, J2=30
+  Op 10: Tag=r, I1=76, I2=78, J1=30, J2=33
+  Op 11: Tag=e, I1=78, I2=79, J1=33, J2=34
+  Op 12: Tag=r, I1=79, I2=81, J1=34, J2=37
+  Op 13: Tag=e, I1=81, I2=82, J1=37, J2=38
+  Op 14: Tag=r, I1=82, I2=89, J1=38, J2=50
+  Op 15: Tag=e, I1=89, I2=91, J1=50, J2=52
+  Op 16: Tag=r, I1=91, I2=95, J1=52, J2=56
+  Op 17: Tag=e, I1=95, I2=96, J1=56, J2=57
+  Op 18: Tag=r, I1=96, I2=100, J1=57, J2=59
+Cleaning up uploaded temporary documents...
+Cleaning up uploaded temporary documents...
+Cleaning up uploaded temporary documents...
+sync failed after 3 attempts: executing ops: executing batched ops: googleapi: Error 400: Invalid requests[4].deleteContentRange: Invalid deletion range. Cannot delete the requested range.
+Details:
+[
+  {
+    "@type": "type.googleapis.com/google.rpc.DebugInfo",
+    "detail": "[ORIGINAL ERROR] generic::invalid_argument: com.google.apps.docs.api.external.ExternalBadRequestException: Invalid requests[4].deleteContentRange: Invalid deletion range. Cannot delete the requested range. [google.rpc.error_details_ext] { message: \"Invalid requests[4].deleteContentRange: Invalid deletion range. Cannot delete the requested range.\" }"
+  }
+]
+, badRequest
